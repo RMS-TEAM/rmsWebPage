@@ -1,3 +1,3 @@
 #RMS-Solutions
 
-###Web page coorporativa
+###Web page corporativa
