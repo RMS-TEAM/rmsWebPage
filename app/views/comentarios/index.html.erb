@@ -1,0 +1,36 @@
+
+   <h1>Comentarios</h1>
+
+
+
+<% @comentarios.each do |comen| %>
+       <div class="comentario"  >
+         <table>
+          <div class="tabla">
+         <tr>
+          <td><h4>Nombre:</h4></td>
+          <td><%= comen.nombre %></td>
+         </tr>
+          <tr>
+          <td><h4>Email:</h4> </td>
+          <td> <%= comen.email %> </td>
+          </tr>
+           <tr>
+           <td><h4>Cuentanos:</h4></td>
+           <td><%= comen.content %></td>
+         </tr>
+          </div>
+         </table>
+      </div>
+   <%end%>
+
+
+
+
+
+
+
+
+
+
+
