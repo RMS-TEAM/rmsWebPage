@@ -1,0 +1,31 @@
+<div class="login" >
+    <h1>Contactanos.</h1>
+    <table>
+      <tr>
+        <td>
+          <%= form_for @user do |f| %>
+          <%= f.label :nombre, 'Nombre' %><br/>
+          <%= f.text_field :nombre, :autocomplete => :off, :class => "entrada"  %>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <%= f.label :email, 'Email' %><br/>
+          <%= f.text_field :email, :autocomplete => :off, :class => "entrada" %>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <%= f.label :content, 'Cuentanos' %><br/>
+          <%= f.text_area :content, :rows => 8, :cols => 60, :class => "entrada" %>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <%= f.submit  'Enviar' %>
+        </td>
+      </tr>
+      <% end %>
+    </table>
+</div>
+
