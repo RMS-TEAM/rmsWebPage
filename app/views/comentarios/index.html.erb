@@ -1,19 +1,15 @@
-
-   <h1>Comentarios</h1>
-
-
-
+<h1>Comentarios</h1>
 <% @comentarios.each do |comen| %>
-       <div class="comentario"  >
-         <p>Nombre : <%= comen.nombre %> </p>
-         <p> Email : <%= comen.email %> </p>
-         <p>Cuentanos : <%= comen.content %></p>
-      </div>
-   <%end%>
+    <div class="comentario"  >
+        <p class="elemento">Nombre : <%= comen.nombre %> </p>
+        <p class="elemento"> Email : <%= comen.email %> </p>
+        <p class="elemento">Cuentanos : <%= comen.content %></p>
+    </div>
+<%end%>
 
 
 
-
+               <p></p>
 
 
 

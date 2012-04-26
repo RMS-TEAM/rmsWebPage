@@ -2,17 +2,20 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#content td {
-    width: 50%
 
-}
 #content .comentario{
   border: solid black 1px;
-    border-radius: 23px;
+  border-radius: 10px;
   font-size: 17px;
-  width: 100%
+  width: 100%;
+  padding-left: 10px;
+  margin-bottom: 10px;
 }
 #content tbody{
   width: 10%;
+}
 
+.elemento{
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
