@@ -2,18 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
-#content .comentario{
+.comentario{
   border: solid black 1px;
   border-radius: 10px;
   font-size: 17px;
   width: 100%;
   padding-left: 10px;
   margin-bottom: 10px;
-}
-
-#content tbody{
-  width: 10%;
 }
 
 .elemento{

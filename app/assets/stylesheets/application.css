@@ -173,13 +173,17 @@ nav ul li a:hover {
     margin-top: 10px;
     border-top: 1px solid #CCC;
     color: #636363;
+}
 
+#footer .copyright{
+    float: right;
+    margin-right: 20%;
+    margin-top: 5%;
 }
 
 #footer .desarrollo{
     margin-left: 10%;
     float: left;
-
 }
 
 #footer .aliados  {
@@ -190,6 +194,7 @@ nav ul li a:hover {
 #footer img{
     width: 100px;
 }
+
 
 
 /* Mensajes flash */
@@ -203,3 +208,5 @@ nav ul li a:hover {
 .notice a {color:#514721;}
 .success a {color:#264409;}
 .info a {color:#205791;}
+
+
