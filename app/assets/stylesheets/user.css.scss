@@ -2,125 +2,132 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#content .login {
-  margin-left: auto;
-  margin-right: auto;
-  width  : 35%;
+
+.ajustar{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  clear: both;
 }
 
-#content .login tbody{
-  font-size: 23px;
+#content #user {
+  border: 1px solid #CACACA;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
 
 }
-#content .login .entrada {
-  border-radius: 7px;
-  padding: 3px;
+#content #user .user_info{
+  clear: both;
+  min-height: 150px;
 }
-#content .login #cooperativa {
-    border-radius: 7px;
-    padding: 3px;
-    width : 100%;
-    background-color: #f5f5f5;
-}
-#content .login .submit {
-  border-radius: 7px;
-  width : 100%;
-  padding : 3px;
-  font-style: bold;
-  font-size: 15px;
+#content #user img{
+  border: 1px solid #CACACA;
   background:  #F1F1F1;
   background: -moz-linear-gradient( #F1F1F1,  #E0E0E0);
   background: -webkit-linear-gradient( #F1F1F1,  #E0E0E0);
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f1f1',endColorstr='#e0e0e0')";
+  padding: 4px;
+  border-radius: 5px;
+  width: 10%;
+  float: left;
+  margin-left: 38px;
+  margin-top: 25px;
+}
+
+#content #user .user_details{
+  width: 70%;
+  float: left;
+  margin-left: 15px;
+
+}
+
+#content #user .user_details table{
+  margin-top: 10px;
+}
+
+#content #user .user_details th{
+  background: 0;
+  border: none;
+  text-align: left;
+  color: #000000;
+}
+
+#content #user .user_details td{
+  background: 0;
+  border: none;
+  text-align: left;
+  color: #000000;
+}
+
+#content #user .user_repos{
+  margin-top: 15%;
+  margin-left: 38px;
+  width: 30%;
+  float: left;
+}
+
+
+#content #user .user_repos .repo{
+  border: 1px solid #CACACA;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 10px;
+
+
+
+}
+
+#content #user .user_repos .repo .title{
+  padding: 4px;
+  min-height: 35%;
   border-bottom: 1px solid #CACACA;
-  border: 1px solid #DDD;
-  box-shadow: 0 1px 0 #FAFAFA,inset 0 1px 0 #FAFAFA;
-  color: #09C;
+  font-size: 10px;
+
+}
+
+
+#content #user .user_repos .repo .title a{
+  color: #4183C4;
+  text-decoration: none;
+  font-size: 16px;
   font-weight: bold;
 }
 
+#content #user .user_repos .repo .description{
+  padding: 4px;
+  background: #FAFAFA;
+  background: -moz-linear-gradient(#FAFAFA,#EFEFEF);
+  background: -webkit-linear-gradient(#FAFAFA,#EFEFEF);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#efefef')";
 
-#content table{
-  border-spacing: 0px;
-  width: 100%;
-  margin: auto;
-  margin-top:50px;
-  border-radius: 10px;
-
-}
-
-#content .user_info{
-  min-height: 250px;
-}
-
-#content .user_info table .tabla-izq{
-  border-radius: 5px 5px 0 0;
+  min-height: 40px;
 
 }
 
-#content .user_info table .tabla-der{
-  border-radius: 5px 5px 0 0;
+#content #user .user_repos .repo .description .desc{
+  font-size: 14px;
+  color: #444;
+
 }
 
-#content .user_info  table .espacio{
-  background: white;
-  border-color: transparent;
+#content #user .user_repos .repo .description .updated{
+  font-size: 11px;
+  color: #888;
+
+
 }
 
-#content .user_info table .total.der{
-  border-radius: 0 0 5px 0;
-}
-
-#content .user_info table .total.izq{
-  border-radius: 0 0 0 5px ;
-}
-
-
-#content table th {
-  border: 1px solid #CACACA;
-  padding: 3px;
-  background: #829AA8;
-  background: -moz-linear-gradient(#829AA8,#405A6A);
-  background: -webkit-linear-gradient(#829AA8,#405A6A);
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#829aa8',endColorstr='#405a6a')";
-  color: white;
-  border: 1px solid #677C89;
-  border-bottom-color: #6B808D;
-}
-
-#content .titulo2{
-  background: #E9F1F4;
-  color: #333;
-  border: 1px solid #E1E1E2;
-  font-size: 13px;
-  width: 20%;
-}
-
-#content .user_info table td {
-  border: 1px solid #CACACA;
-  padding: 3px;
-  background-color:  #FAFAFB;
-}
-
-#content .user_info .tabla.izq{
+#content .user-gist{
+  width: 60%;
   float: left;
-  width: 50%
-}
-#content .user_info .tabla.der{
-  float: right;
-  width: 50%;
-}
-.ajustar{
-margin-top: 20px;
-margin-bottom: 20px;
-clear: both;
+  margin-top: 15%;
+  margin-left: 5px;
 }
 
-#content .detalles{
-  margin-top: 20px;
+.gist{
+  width: 100%;
+  font-size: 70%;
+
 }
 
-#content .detalles .titulo{
-  border-radius: 5px 5px 0 0  ;
-}
 

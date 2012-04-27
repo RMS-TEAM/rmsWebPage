@@ -15,5 +15,34 @@ class UsersController < ApplicationController
     end
   end
 
+  def rderoldan1
+    @response1 = user_info('rderoldan1')
+    @response =  user_repos('rderoldan1')
+
+  end
+
+  def jvelezpo
+    @response1 = user_info('jvelezpo')
+    @response =  user_repos('jvelezpo')
+
+  end
+
+  def jvidalba1
+    @response1 = user_info('jvidalba1')
+    @response =  user_repos('jvidalba1')
+    @response2= HTTParty.get("https://api.github.com/gists/921286")
+
+  end
+
+  private
+  def user_info(user)
+    HTTParty.get( "https://api.github.com/users/#{user}")
+  end
+
+  def user_repos(user)
+    HTTParty.get("https://api.github.com/users/#{user}/repos")
+
+  end
+
 
 end
