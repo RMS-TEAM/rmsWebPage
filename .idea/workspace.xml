@@ -31,19 +31,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="users_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="62" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_user-info.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/users/_user-info.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="12" selection-start="841" selection-end="841" vertical-scroll-proportion="0.26418152">
+            <state line="46" column="62" selection-start="964" selection-end="964" vertical-scroll-proportion="1.0550458">
               <folding />
             </state>
           </provider>
@@ -780,16 +771,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/users/_user-info.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="62" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0">
+        <state line="30" column="11" selection-start="798" selection-end="798" vertical-scroll-proportion="0.23987034">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/_user-info.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="12" selection-start="841" selection-end="841" vertical-scroll-proportion="0.26418152">
+        <state line="46" column="62" selection-start="964" selection-end="964" vertical-scroll-proportion="1.0550458">
           <folding />
         </state>
       </provider>

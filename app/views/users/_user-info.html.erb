@@ -28,8 +28,8 @@
     <h2>GitHub Repos (<%=@response.count %>)</h2>
     <% @response.each do |n|  %>
         <% url = n["url"] %>
-        <% #url = url.gsub("api.", "") %>
-        <% #url = url.gsub("repos/", "") %>
+        <% url = url.gsub("api.", "") %>
+        <% url = url.gsub("repos/", "") %>
         <div class="repo">
           <div class="title">
                <%= link_to n["name"],url, :target => '_blank', :class => "name" %>
