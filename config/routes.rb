@@ -13,7 +13,9 @@ Rms::Application.routes.draw do
   get "comentarios/destroy"
 
   get "comentarios/delete"
-
+  get "users/rderoldan1"
+  get "users/jvelezpo"
+  get "users/jvidalba1"
    resources :users
    root :to => 'users#index'
 end
