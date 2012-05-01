@@ -75,6 +75,10 @@ a {
     text-decoration: none;
 }
 
+.nombre{
+    color: #333;
+}
+
 .nav{
     margin-bottom: 20px;
     width: 80%;

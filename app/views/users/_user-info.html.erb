@@ -27,9 +27,12 @@
     <hr >
     <h2>GitHub Repos (<%=@response.count %>)</h2>
     <% @response.each do |n|  %>
+        <% url = n["url"] %>
+        <% url = url.gsub("api.", "") %>
+        <% url = url.gsub("repos/", "") %>
         <div class="repo">
           <div class="title">
-               <%= link_to n["name"],n["url"], :target => '_blank', :class => "name" %>
+               <%= link_to n["name"],url, :target => '_blank', :class => "name" %>
                 <%= n["language"]  %>
           </div>
           <div class="description">
@@ -39,14 +42,35 @@
 
         </div>
     <%end%>
-
-
   </div>
-  <div class="user-gist">
+
+  <% if @jvelezpo %>
+      <div class="descripcion">
+        <h3>Description</h3>
+        <div>
+          I am an engineer that is responsible, persevering, with strong foundations in mathematics and computational science. I like to learn new things all the time and I can work either individually or in teams. I have worked in several projects for the industry and the academia, including development for finance, web programming of educational software and other researchs in computer science department.
+          I want to help you earn more money with your business by building your projects in no time with Java or Ruby on Rails.
+        </div>
+        <h3>Experiencia</h3>
+        <div>
+          Consultor de proyecto en Universidad EAFIT<br/>
+          Developer en Gestion de Clientes<br/>
+          Java EE Developer en Infosys<br/>
+        </div>
+        <h3>Educación</h3>
+        <div>
+          Universidad Escuela de Administración y Finanzas y Tecnologías<br/>
+          EAFIT University<br/>
+        </div>
+      </div>
+  <% else %>
+    <div class="user-gist">
       <script src="https://gist.github.com/2495749.js?file=gistfile1.rb"></script>
-        <script src="https://gist.github.com/1648004.js?file=gistfile1.md"></script>
+      <script src="https://gist.github.com/1648004.js?file=gistfile1.md"></script>
+    </div>
+  <% end %>
 
-  </div>
+
   <hr class="ajustar" style="margin: auto; clear: both;">
 </div>
 
