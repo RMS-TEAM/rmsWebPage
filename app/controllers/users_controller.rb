@@ -1,9 +1,10 @@
 class UsersController < ApplicationController
+
   def index
     @title = "RMS-Solutions"
     @user = User.new
-
   end
+
   def create
     @monda = User.new(params[:user])
     if @monda.save
@@ -44,7 +45,6 @@ class UsersController < ApplicationController
 
   def user_repos(user)
     HTTParty.get("https://api.github.com/users/#{user}/repos")
-
   end
 
 
